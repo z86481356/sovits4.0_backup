@@ -1,4 +1,4 @@
-此處為備份，請移駕至原倉庫支持https://github.com/svc-develop-team/so-vits-svc
+此處為備份，請移駕至原作者倉庫支持https://github.com/svc-develop-team/so-vits-svc
 
 # SoftVC VITS Singing Voice Conversion
 
