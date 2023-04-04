@@ -1,3 +1,5 @@
+此處為備份，請移駕至原倉庫支持https://github.com/svc-develop-team/so-vits-svc
+
 # SoftVC VITS Singing Voice Conversion
 
 [**English**](./README.md) | [**中文简体**](./README_zh_CN.md)
