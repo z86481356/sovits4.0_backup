@@ -121,7 +121,7 @@ def main():
                         audio.extend(lg_pre)
                         _audio = _audio[lg_size_c_l+lg_size_r:] if lgr != 1 else _audio[lg_size:]
                     audio.extend(list(_audio))
-            key = "auto" if auto_predict_f0 else f"{tran}key"
+            key = "true" if auto_predict_f0 else f"{tran}key"
             cluster_name = "" if cluster_infer_ratio == 0 else f"_{cluster_infer_ratio}"
             res_path = f'./results/{clean_name}_{key}_{spk}{cluster_name}.{wav_format}'
             soundfile.write(res_path, audio, svc_model.target_sample, format=wav_format)
